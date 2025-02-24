@@ -30,7 +30,7 @@ curl -k https://<ip>:8443/files/test.txt
 wget --no-check-certificate https://<ip>:8443/files/test.txt
 ```
 
-Once you're done with the container, use `docker stop` to stop the container.
+Once you're done with the container, use `docker stop` to stop. The container will be removed on exit.
 
 ## Why?
 
