@@ -27,6 +27,7 @@ Since this cert is self signed, we will need to skip certificate checks:
 ```shell
 curl -k -X POST https://<ip>:8443/upload.php -F 'file=@test.txt'
 curl -k https://<ip>:8443/files/test.txt
+curl -k https://<ip>:8443/files/test.txt --output test.txt
 wget --no-check-certificate https://<ip>:8443/files/test.txt
 ```
 
